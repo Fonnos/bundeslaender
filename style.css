@@ -1,0 +1,74 @@
+#mainContent {
+    width: 1024px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+#content {
+    width: 1024px;
+    
+    
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.div-bundeslaender {
+    width: 33%;
+    
+}
+
+.bundeslaender {
+    border: 10px;
+    border-style: solid;
+    border-color: #EEEEEE;
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+    
+    
+    
+}
+
+.bundeslaender:hover {
+    cursor: pointer;
+    border-color: #DDDDDD;
+}
+
+h1 {
+    background-color: #DDDDDD;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+#searchBars {
+    display: flex;
+}
+
+.letters {
+    margin: 5px;
+    background-color: #DDDDDD;
+    height: 30px;
+    width: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.letters:hover {
+    cursor: pointer;
+    background-color: #EEEEEE;
+}
