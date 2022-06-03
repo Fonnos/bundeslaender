@@ -1,5 +1,6 @@
 #mainContent {
     width: 1024px;
+    max-width: 100%;
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
@@ -8,10 +9,12 @@
 body {
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 #content {
     width: 1024px;
+    max-width: 100%;
     
     
 }
@@ -71,4 +74,30 @@ h1 {
 .letters:hover {
     cursor: pointer;
     background-color: #EEEEEE;
+}
+
+@media only screen and (max-width: 800px) {
+    #mainContent {
+        width: 100%;
+    }
+
+    #content {
+        width: 100%;
+    }
+
+    .div-bundeslaender {
+        width: calc(50% - 5px)
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .div-bundeslaender {
+        width: calc(100% - 10px)
+    }
+
+
+h1 {
+    font-size: 1em;
+    text-align: center;
+}
 }
